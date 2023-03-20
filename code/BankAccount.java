@@ -1,4 +1,4 @@
-package W1.code;
+package code;
 
 interface Account {
     public abstract int deposit(int money);

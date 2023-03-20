@@ -1,4 +1,4 @@
-package W1.lab;
+package lab;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

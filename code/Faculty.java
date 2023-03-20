@@ -1,4 +1,4 @@
-package W1.code;
+package code;
 
 public class Faculty extends Employee {
     public Faculty() {

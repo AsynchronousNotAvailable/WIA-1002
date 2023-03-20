@@ -1,4 +1,4 @@
-package W1.lab;
+package lab;
 
 import java.util.Scanner;
 import java.io.*;

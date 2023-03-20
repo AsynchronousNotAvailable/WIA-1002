@@ -1,4 +1,4 @@
-package W1.code;
+package code;
 
 public class C{
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package W1.code;
+package code;
 
 public abstract class Vehicle {
     private double maxSpeed;
