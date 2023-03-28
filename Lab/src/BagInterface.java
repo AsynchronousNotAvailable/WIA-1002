@@ -37,4 +37,13 @@ public interface BagInterface<T>
     /** Retrieves all entries that are in this bag.
     @return a newly allocated array of all the entries in the bag */
     public T[] toArray();
+
+    BagInterface<T> union(BagInterface<? extends T> bag2);
+
+    BagInterface<T> intersection(BagInterface<? extends T> bag2);
+
+    BagInterface<T> difference(BagInterface<? extends T> bag2);
+
+
+
 } // end BagInterface
