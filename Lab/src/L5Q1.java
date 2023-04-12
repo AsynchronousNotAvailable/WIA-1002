@@ -1,4 +1,4 @@
-public class L4Q1 {
+public class L5Q1 {
     //1)
     static class Node <E>{
         E element;
