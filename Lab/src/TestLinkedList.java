@@ -1,6 +1,6 @@
 public class TestLinkedList {
     public static void main(String[] args) {
-        L4Q1.MyLinkedList <Character> list = new L4Q1.MyLinkedList<Character>();
+        L5Q1.MyLinkedList <Character> list = new L5Q1.MyLinkedList<Character>();
 
         for(char c = 'a'; c <= 'e'; c++){
             list.addLast(c);
