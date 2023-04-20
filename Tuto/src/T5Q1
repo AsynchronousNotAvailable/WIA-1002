@@ -1,7 +1,0 @@
-1. a) Based on the above source code, explain what the lines of code do from line 10 – 21.
-Ans: replace the element with new element and return the replaced element.
-
-   b) What is the main purpose of the method xyz()?
-Ans: Traverse to the Node located at the specified index and replace it's element with the specified new element, returns the replaced element.
-
-   c) Obviously, there are some bugs in the source code. Debug the code and make it concise and simpler.
