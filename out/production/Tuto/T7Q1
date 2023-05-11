@@ -1,0 +1,32 @@
+1. Name four everyday examples of a queue other than those discussed during lecture.
+    i. A line at a grocery store
+    ii. A line at a bank
+    iii. A line at a movie theater
+    iv. A line at a restaurant
+2. What is the difference between a queue and stack?
+    i. A queue is a FIFO data structure, while a stack is a LIFO data structure.
+
+3. Use the following code segment to answer parts (a) through (c):
+
+   Queue<Integer> q = new Queue<Integer>(); Scanner keyIn = new Scanner(System.in); for (int i = 1; i <= 5; i++)
+   {
+              if (keyIn.nextBoolean())
+                   System.out.print(i + " ");
+              else
+                   q.enqueue(i);
+   } }
+        while (!q.isEmpty())
+              System.out.print(q.dequeue() + " ");
+        System.out.println();
+
+  a) What is the output for the following input sequence?
+        true false true true true
+     Ans: 1 3 4 5 2
+
+  b) Is it possible to have output: 1 3 5 4 2? If yes, give an input sequence that produces the output; or else, provide justification to your answer.
+     Ans: No, it is not possible. The queue is a FIFO data structure, so the first element to be dequeued will be the first element to be enqueued.
+
+  c) Give at least three input sequences that produce the output: 1 2 3 4 5
+        Ans: true true true true true
+             false false false false false
+             true true true false false
