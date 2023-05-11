@@ -30,3 +30,62 @@
         Ans: true true true true true
              false false false false false
              true true true false false
+
+  4. Hand trace a queue X through the following operations:
+
+     X.enqueue(new Integer(14));
+     X.enqueue(new Integer(3));
+     X.enqueue(new Integer(5));
+     Object Y = X.dequeue();
+     X.enqueue(new Integer(7));
+     X.enqueue(new Integer(9));
+     Y = X.dequeue();
+     X.enqueue(new Integer(2));
+     X.enqueue(new Integer(4));
+
+     X: 5 7 9 2 4
+     Y: 3
+
+     Given the resulting queue X above, what would be the result of each of the following?
+     a) X.front();
+        Ans: 5
+
+     b) X.dequeue();
+        X.enqueue(new Integer(10));
+        X.front();
+        Ans: 7
+
+     c) Y = X.dequeue();
+        Ans: 7
+
+     d) X.front();
+        Ans: 9
+
+  5. Provide and explain three operations / functions of Linked List based Queue that you can add to the GenericQueue class, other than those discussed in the lecture (i.e., enqueue, dequeue and getSize – from Slide 10 in the lecture slide).
+        Ans:
+        i. isEmpty() - returns true if the queue is empty, false otherwise
+        ii. clear() - clears the queue
+        iii. contains(Object o) - returns true if the queue contains the specified element, false otherwise
+        iv. peek() - returns the element at the front of the queue without removing it
+        v. remove(Object o) - removes the specified element from the queue
+        vi. toArray() - returns an array containing all of the elements in the queue in proper sequence
+        vii. toString() - returns a string representation of the queue
+        viii. equals(Object o) - returns true if the specified object is equal to the queue, false otherwise
+        ix. hashCode() - returns the hash code value for the queue
+        x. iterator() - returns an iterator over the elements in the queue
+        xi. offer(Object o) - inserts the specified element into the queue
+        xii. poll() - retrieves and removes the head of the queue, or returns null if the queue is empty
+        xiii. remove() - retrieves and removes the head of the queue
+        xiv. add(Object o) - inserts the specified element into the queue
+        xv. element() - retrieves, but does not remove, the head of the queue
+        xvi. addAll(Collection c) - adds all of the elements in the specified collection to the queue
+        xvii. containsAll(Collection c) - returns true if the queue contains all of the elements of the specified collection, false otherwise
+        xviii. removeAll(Collection c) - removes all of the elements of the specified collection from the queue
+        xix. retainAll(Collection c) - retains only the elements in the queue that are contained in the specified collection
+        xx. toArray(T[] a) - returns an array containing all of the elements in the queue in proper sequence; the runtime type of the returned array is that of the specified array
+        xxi. removeFirst() - removes and returns the first element from the queue
+        xxii. removeLast() - removes and returns the last element from the queue
+        xxiii. getFirst() - returns the first element in the queue
+        xxiv. getLast() - returns the last element in the queue
+        xxv. peekFirst() - returns the first element in the queue without removing it
+        xxvi. peekLast
