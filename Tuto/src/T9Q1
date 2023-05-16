@@ -1,0 +1,36 @@
+ADJACENCY MATRIX
+  A B C D E F G H I
+A 0 0 1 1 0 0 0 0 0
+B 0 0 0 1 0 0 0 0 0
+C 1 0 0 0 1 1 0 0 0
+D 1 1 0 0 1 0 0 0 0
+E 0 0 1 1 0 0 1 0 0
+F 0 0 1 0 0 0 0 1 0
+G 0 0 0 0 1 0 0 1 0
+H 0 0 0 0 0 1 1 0 1
+I 0 0 0 0 0 0 0 1 0
+
+ADJACENCY LIST
+Node  List
+A     C D
+B     D
+C     A E F
+D     A B E
+E     C D G
+F     C H
+G     E H
+H     F G I
+I     H
+
+
+2. Represent the graph in question 1 using a 2 dimensional array. You use the adjacency matrix or the adjacency list for this purpose?
+int [][] arr2d = {  {0,0,1,1,0,0,0,0,0},
+                    {0,0,0,1,0,0,0,0,0},
+                    {1,0,0,0,1,1,0,0,0},
+                    {1,1,0,0,1,0,0,0,0},
+                    {0,0,1,1,0,0,1,0,0},
+                    {0,0,1,0,0,0,0,1,0},
+                    {0,0,0,0,1,0,0,1,0},
+                    {0,0,0,0,0,1,1,0,1},
+                    {0,0,0,0,0,0,0,1,0}  };
+                    adjacency matrix is used for this purpose
